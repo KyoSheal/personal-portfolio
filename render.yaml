@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: personal-portfolio
+    name: junyuezhang
     env: static
     buildCommand: null
     startCommand: null
