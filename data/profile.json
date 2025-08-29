@@ -1,0 +1,31 @@
+{
+  "name": "Junyue Zhang",
+  "title": "Software QA / Dev Engineer",
+  "description": "I'm a Software QA/Dev Engineer focused on ensuring software quality and delivering features people can trust.\n\nI also built <strong>RefSys</strong> website, a referee scheduling and management platform.\n\nI'm currently designing a <strong>Chess + Roguelike</strong> game, reimagines chess with strong strategy, randomness, and storytelling.",
+  "stats": [
+    {
+      "number": "5+",
+      "label": "Years Experience"
+    },
+    {
+      "number": "50+",
+      "label": "Projects Completed"
+    },
+    {
+      "number": "100%",
+      "label": "Client Satisfaction"
+    }
+  ],
+  "social": [
+    {
+      "platform": "github",
+      "url": "https://github.com/KyoSheal",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/junyue-zhang-149277211/",
+      "icon": "fab fa-linkedin"
+    }
+  ]
+}

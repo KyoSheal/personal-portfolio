@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Theme C Preview - Terracotta + Sand</title>
+  <style>
+    :root {
+      --primary: #D97757; /* terracotta */
+      --primary-foreground: #0B1020;
+      --background: #FFF7ED; /* sand */
+      --foreground: #0B1020; /* deep navy */
+      --border: #E7E5E4; /* warm gray */
+      --muted: #FEF3C7; /* warm light */
+      --nav-bg: #0F172A; /* deep navy */
+      --nav-fg: #E5E7EB;
+      --nav-active: var(--primary);
+      --success: #16A34A;
+      --warning: #F59E0B;
+      --danger: #DC2626;
+      --radius: 12px;
+      --shadow: 0 8px 18px rgba(11,16,32,0.08);
+      --card-bg: #FFFFFF;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; color: var(--foreground); background: linear-gradient(180deg, #FFFFFF 0%, var(--background) 100%); min-height:100vh; display:flex; flex-direction:column; }
+    .nav { background: var(--nav-bg); color: var(--nav-fg); display:flex; align-items:center; justify-content:space-between; padding: 14px 24px; border-bottom:1px solid rgba(255,255,255,0.06); }
+    .brand { font-weight: 700; letter-spacing: .3px; }
+    .nav-links { display:flex; gap: 18px; }
+    .nav-links a { color: var(--nav-fg); text-decoration:none; padding: 8px 4px; border-bottom:2px solid transparent; }
+    .nav-links a:hover { border-color: rgba(255,255,255,0.18); }
+    .nav-links a.active { border-color: var(--nav-active); color: var(--nav-active); }
+
+    .container { max-width: 1100px; margin: 32px auto; padding: 0 20px; width: 100%; }
+    .grid { display:grid; grid-template-columns: 1.1fr 0.9fr; gap: 24px; }
+
+    .card { background: var(--card-bg); border:1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; }
+    .login-wrap { background: linear-gradient(165deg, #FFF7ED 0%, #FFFDF7 100%); border:1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+    .login-card { background:#fff; border:1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; max-width: 420px; }
+    label { display:block; font-size: 12px; margin-bottom:6px; color:#6B7280; }
+    input { width: 100%; padding: 10px 12px; border:1px solid var(--border); border-radius: 10px; background:#fff; color: var(--foreground); outline:none; }
+    input:focus { border-color: var(--primary); box-shadow: 0 0 0 2px rgba(217,119,87,0.18); }
+
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; border-radius: 10px; padding: 10px 14px; font-weight:600; cursor:pointer; border:1px solid transparent; text-decoration:none; }
+    .btn-primary { background: var(--primary); color: var(--primary-foreground); }
+    .btn-primary:hover { filter: brightness(0.96); }
+    .btn-secondary { background: #ffffff; color: var(--foreground); border-color: var(--border); }
+    .btn-secondary:hover { background: #FAF6F0; }
+    .btn-ghost { background: transparent; color: var(--primary); border-color: transparent; }
+    .btn-ghost:hover { background: #FFEDE6; }
+
+    table { width: 100%; border-collapse: separate; border-spacing:0; border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+    thead { background: #FFF3E6; }
+    th, td { padding: 12px; border-bottom: 1px solid var(--border); text-align:left; }
+    tr:hover td { background: #FFFAF2; }
+
+    .swatches { display:flex; gap:12px; flex-wrap:wrap; }
+    .swatch { padding:10px; border-radius:10px; border:1px solid var(--border); min-width:120px; box-shadow: var(--shadow); background:#fff; }
+    .chip { display:inline-block; width: 100%; height: 28px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">RefSys • Theme C</div>
+    <div class="nav-links">
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Matches</a>
+      <a href="#">Referees</a>
+      <a href="#">Settings</a>
+    </div>
+    <a class="btn btn-secondary" href="#">Sign out</a>
+  </nav>
+
+  <div class="container">
+    <div class="grid">
+      <div class="login-wrap">
+        <div class="login-card">
+          <h3 style="margin-top:0;">Login</h3>
+          <p style="margin-top:0; color:#6B7280;">Welcome back, please sign in</p>
+          <div style="display:grid; gap:12px; margin-top:10px;">
+            <div>
+              <label>Email</label>
+              <input type="email" placeholder="you@example.com" />
+            </div>
+            <div>
+              <label>Password</label>
+              <input type="password" placeholder="••••••••" />
+            </div>
+            <div style="display:flex; gap:10px;">
+              <button class="btn btn-primary" style="flex:1">Sign in</button>
+              <button class="btn btn-secondary" style="flex:1">Create account</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Components</h3>
+        <p style="color:#6B7280; margin-top: 4px;">Buttons / Table / Swatches</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin: 10px 0 16px;">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-ghost">Ghost</button>
+          <button class="btn" style="background: var(--success); color:#fff;">Success</button>
+          <button class="btn" style="background: var(--warning); color:#111827;">Warning</button>
+          <button class="btn" style="background: var(--danger); color:#fff;">Danger</button>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>League</th>
+              <th>Teams</th>
+              <th>Role</th>
+              <th>Earnings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2025-08-12</td>
+              <td>BCSPL</td>
+              <td>Home vs Away</td>
+              <td>Referee</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>2025-08-14</td>
+              <td>BCCSL</td>
+              <td>Team A vs Team B</td>
+              <td>Assistant Referee</td>
+              <td>$60</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4 style="margin:16px 0 8px;">Swatches</h4>
+        <div class="swatches">
+          <div class="swatch">
+            <div class="chip" style="background: var(--primary);"></div>
+            <small>Primary: #D97757</small>
+          </div>
+          <div class="swatch">
+            <div class="chip" style="background: var(--background);"></div>
+            <small>Background</small>
+          </div>
+          <div class="swatch">
+            <div class="chip" style="background: var(--nav-bg);"></div>
+            <small>Nav</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+

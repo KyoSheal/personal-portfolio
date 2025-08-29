@@ -1,0 +1,70 @@
+{
+  "title": "Work Experience",
+  "subtitle": "My professional journey",
+  "items": [
+    {
+      "position": "Software QA Engineer",
+      "company": "Nokia Canada",
+      "period": "Jul 2022 – Present",
+      "location": "Burnaby, BC",
+      "description": "Automated testing for IP/MPLS systems, improving release reliability and coverage. Built scalable test environments and integrated automation into CI pipelines. Collaborated across teams to deliver stable and high-quality releases.",
+      "techStack": ["Automated Testing", "IP/MPLS", "CI/CD", "Test Automation"]
+    },
+    {
+      "position": "Soccer Referee",
+      "company": "BC Soccer",
+      "period": "Aug 2022 – Present",
+      "location": "British Columbia, Canada",
+      "description": "Officiates as a Referee and Assistant Referee for youth and adult high-performance leagues. Conflict management and high-pressure decision-making in a fast-paced environment.",
+      "techStack": ["Leadership", "Decision Making", "Conflict Resolution"]
+    },
+    {
+      "position": "Virtual Systems Support Engineer (Co-op)",
+      "company": "OSI Maritime Systems",
+      "period": "Sep 2021 – Apr 2022",
+      "location": "Burnaby, BC",
+      "description": "Built and documented VMware-based training systems. Identified and mitigated security issues in virtual environments.",
+      "techStack": ["VMware", "Virtual Systems", "Security", "Documentation"]
+    },
+    {
+      "position": "Laboratory Instructor",
+      "company": "University of Victoria",
+      "period": "Sep 2020 – Apr 2021",
+      "location": "Victoria, BC",
+      "description": "Taught embedded systems labs and guided students in debugging and circuit design.",
+      "techStack": ["Embedded Systems", "Teaching", "Circuit Design", "Debugging"]
+    },
+    {
+      "position": "System Support Engineer",
+      "company": "Alstom (CASCO)",
+      "period": "Mar 2019 – Dec 2019",
+      "location": "Shanghai, China",
+      "description": "Tested and commissioned metro interlocking systems during trial operations. Supported customers with troubleshooting and on-site validation.",
+      "techStack": ["Metro Systems", "Interlocking", "Testing", "Customer Support"]
+    },
+    {
+      "position": "DCS Design Engineer (Co-op)",
+      "company": "Thales",
+      "period": "Jun 2018 – Sep 2018",
+      "location": "Shanghai, China",
+      "description": "Tested DCS network systems for Shanghai transit. Assisted in debugging and network design validation.",
+      "techStack": ["DCS", "Network Systems", "Testing", "Debugging"]
+    },
+    {
+      "position": "Marketing Specialist (Co-op)",
+      "company": "ITW",
+      "period": "Jun 2017 – Sep 2017",
+      "location": "Shanghai, China",
+      "description": "Supported exhibitions through client and supplier engagement.",
+      "techStack": ["Marketing", "Client Relations", "Exhibitions"]
+    },
+    {
+      "position": "Operation & Maintenance Engineer (Co-op)",
+      "company": "INESA Group",
+      "period": "Jul 2016 – Sep 2016",
+      "location": "Shanghai, China",
+      "description": "Assisted in developing the \"Shanghai Food Safety Platform\" application. Supported operations and product content traceability research.",
+      "techStack": ["Food Safety", "Platform Development", "Operations", "Traceability"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Featured Projects",
+  "subtitle": "Some of my recent completed projects",
+  "items": [
+    {
+      "title": "RefSys – Referee Scheduling & Management Platform",
+      "description": "An online platform for referees and coordinators to manage matches, schedules, and earnings. Includes role-based access, time conflict detection, automated scheduling, and carpooling. Currently in beta with 30+ referees actively testing.",
+      "icon": "fas fa-calendar-alt",
+      "tags": ["FastAPI", "React", "PostgreSQL", "Full Stack"],
+      "links": {
+        "demo": "https://refsysonline-frontend.onrender.com/login",
+        "github": "https://github.com/KyoSheal/Referee-Management-System"
+      }
+    },
+    {
+      "title": "Chess Roguelike Game",
+      "description": "A strategy game that reimagines chess with RPG and roguelike elements. Each piece has health, skills, and unique abilities, while enemy kings feature distinctive AI and battle mechanics. Currently in development as a vertical-slice demo.",
+      "icon": "fas fa-chess-king",
+      "tags": ["Unity (C#)", "Game Dev", "Strategy", "Roguelike"],
+      "links": {
+        "demo": "#",
+        "github": "https://github.com/KyoSheal"
+      }
+    }
+  ]
+}

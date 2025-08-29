@@ -1,0 +1,26 @@
+{
+  "title": "Core Skills",
+  "description": "I focus on frontend and backend development, and I'm also passionate about user experience design and system architecture. I believe technology should serve humanity, and every project should be user-centered.",
+  "categories": [
+    {
+      "name": "Frontend Development",
+      "skills": ["HTML5", "CSS3", "JavaScript", "React", "Vue.js", "TypeScript"]
+    },
+    {
+      "name": "Backend Development",
+      "skills": ["Node.js", "Python", "Java", "Go", "PHP", "Ruby"]
+    },
+    {
+      "name": "Databases",
+      "skills": ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Elasticsearch"]
+    },
+    {
+      "name": "Cloud Services",
+      "skills": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "Development Tools",
+      "skills": ["Git", "Jenkins", "Jira", "Figma", "Photoshop"]
+    }
+  ]
+}
